@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Application - Janne Immonen</title>
+    <!-- CSS stylesheet file -->
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <!-- Weather Bubbles -->
+      <div class="format format_1"></div>
+      <div class="format format_2"></div>
+      <div class="format format_3"></div>
+      <div class="format format_4"></div>
+      <!-- Weather Application -->
+      <section>
+        <div class="search_container">
+          <input
+            type="text"
+            placeholder="Enter a new city name"
+            id="city"
+            value="helsinki"
+          />
+          <button id="search_button">Search</button>
+        </div>
+        <div id="outcome"></div>
+      </section>
+    </main>
+    <!-- JavaScript files -->
+    <script src="key.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
